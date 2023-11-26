@@ -16,11 +16,12 @@ Just download pre-built files from Releases, run with CbLauncher.exe (that way i
 * Install zip (needed for C::B post-build steps) https://sourceforge.net/projects/gnuwin32/files/zip/3.0/zip-3.0-setup.exe/download  
 * Copy or adjust setup.h for wxWidgets (you must #define wxUSE_GRAPHICS_DIRECT2D wxUSE_GRAPHICS_CONTEXT)
 * Build wxWidgets with build_wxwidgets.bat (it looks for MinGW-W64 in .\mingw64 directory)
-* Open a standard version of CodeBlocks and open CodeBlocks_wx33_64.cbp file
+* Open a standard version of CodeBlocks and open CodeBlocks_wx33_64.workspace file
 * Set environmental variables for wxWidgets and Boost, set path to MinGW-W64 compiler
-* Build CodeBlocks inside of CodeBlocks
+* Right click on CodeBlocks Workspace wx3.3.x (64 bit) and click Build workspace
 * Resulting files will be created in .\src\output33_64
 * Add wxWidgets dll files to built files, add MinGW-W64 dll files http://sourceforge.net/projects/codeblocks/files/Binaries/Nightlies/Prerequisites/Mingw64dlls13.1.0.7z
 * create .\AppData\codeblocks directory in CodeBlocks output directory
 * copy default.conf to .\AppData\codeblocks\default.conf
+* copy contents of .\src\output33_64 to wherever you want your installation of CodeBlocks be placed    
 * run CodeBlocks with CbLauncher.exe (this way it will load dark mode settings from .\AppData\codeblocks\default.conf)
