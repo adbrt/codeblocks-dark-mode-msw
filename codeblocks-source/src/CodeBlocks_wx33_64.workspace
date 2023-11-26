@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="CodeBlocks Workspace wx3.3.x (64 bit)">
+		<Project filename="CodeBlocks_wx33_64.cbp" active="1" />
+		<Project filename="tools/Addr2LineUI/Addr2LineUI_wx33_64.cbp" />
+		<Project filename="tools/cb_share_config/cb_share_config_wx33_64.cbp" />
+		<Project filename="tools/CBLauncher/CbLauncher_wx33_64.cbp" />
+		<Project filename="tools/cbp2make/cbp2make_wx33_64.cbp" />
+		<Project filename="plugins/codecompletion/cctest_wx33_64.cbp" />
+		<Project filename="plugins/contrib/wxContribItems/wxContribItems_wx33_64.cbp" />
+		<Project filename="plugins/contrib/wxSmith/wxSmith_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/wxSmithContribItems/wxSmithContribItems_wx33_64.cbp">
+			<Depends filename="plugins/contrib/wxContribItems/wxContribItems_wx33_64.cbp" />
+			<Depends filename="plugins/contrib/wxSmith/wxSmith_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/wxSmithAui/wxSmithAui_wx33_64.cbp">
+			<Depends filename="plugins/contrib/wxSmith/wxSmith_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/headerguard/headerguard_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/loghacker/loghacker_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/ModPoller/ModPoller_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/tidycmt/tidycmt_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/AutoVersioning/AutoVersioning_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/BrowseTracker/BrowseTracker_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/byogames/byogames_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/cb_koders/cb_koders_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/Cccc/Cccc_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/codesnippets/codesnippets_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/codestat/codestat_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/copystrings/copystrings_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/CppCheck/CppCheck_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/Cscope/Cscope_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/devpak_plugin/DevPakPlugin_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/DoxyBlocks/DoxyBlocks_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/dragscroll/DragScroll_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/EditorConfig/EditorConfig_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/EditorTweaks/EditorTweaks_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/envvars/envvars_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/FileManager/FileManager_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+ 		<Project filename="plugins/contrib/FortranProject/FortranProject_cbsvn_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/headerfixup/headerfixup_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/help_plugin/help-plugin_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/HexEditor/HexEditor_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/IncrementalSearch/IncrementalSearch_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/keybinder/keybinder_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/lib_finder/lib_finder_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+			<Depends filename="plugins/contrib/wxContribItems/wxContribItems_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/MouseSap/MouseSap_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/NassiShneiderman/NassiShneiderman_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/profiler/cbprofiler_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/ProjectOptionsManipulator/ProjectOptionsManipulator_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/regex_testbed/RegExTestbed_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/ReopenEditor/ReopenEditor_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/rndgen/rndgen_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/clangd_client/clangd_client_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/SmartIndent/SmartIndent_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/source_exporter/Exporter_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/SpellChecker/SpellChecker_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/symtab/symtab_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/ThreadSearch/ThreadSearch_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+			<Depends filename="plugins/contrib/wxContribItems/wxContribItems_wx33_64.cbp" />
+		</Project>
+		<Project filename="plugins/contrib/ToolsPlus/ToolsPlus_wx33_64.cbp">
+			<Depends filename="CodeBlocks_wx33_64.cbp" />
+		</Project>
+	</Workspace>
+</CodeBlocks_workspace_file>
