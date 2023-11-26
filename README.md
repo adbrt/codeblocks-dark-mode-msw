@@ -4,7 +4,7 @@ This is an experimental dark mode build of CodeBlocks IDE. It uses a still-in-de
 
 **How to run it**
 
-Just download pre-built files from Releases, run with CbLauncher.exe (that way it loads configuration file with dark mode settings from a local directory - it works in portable mode)
+Just download pre-built files from Releases, run with **CbLauncher.exe** (that way it loads configuration file with dark mode settings from a local directory - it works in portable mode)
 
 
 **How to build it**
