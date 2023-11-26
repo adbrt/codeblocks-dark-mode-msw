@@ -19,6 +19,7 @@ Just download pre-built files from Releases, run with **CbLauncher.exe** (that w
 * Open a standard version of CodeBlocks and open CodeBlocks_wx33_64.workspace file
 * Set environmental variables for wxWidgets and Boost, set path to MinGW-W64 compiler
 * Right click on CodeBlocks Workspace wx3.3.x (64 bit) and click Build workspace
+* Run post-build steps with update33_64.bat (add zip and bin directory of MinGW-W64 to PATH before that)
 * Resulting files will be created in .\src\output33_64
 * Add wxWidgets dll files to built files, add MinGW-W64 dll files http://sourceforge.net/projects/codeblocks/files/Binaries/Nightlies/Prerequisites/Mingw64dlls13.1.0.7z
 * create .\AppData\codeblocks directory in CodeBlocks output directory
