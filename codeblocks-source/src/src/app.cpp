@@ -588,6 +588,7 @@ void CodeBlocksApp::InitLocale()
 bool CodeBlocksApp::OnInit()
 {
 #ifdef __WXMSW__
+    MSWEnableDarkMode(DarkMode_Always); // Force dark mode
     InitCommonControls();
 #endif
 
