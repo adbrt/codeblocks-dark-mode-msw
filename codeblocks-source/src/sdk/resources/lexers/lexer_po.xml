@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_lexer_properties>
+<CodeBlocks_lexer_properties>
+        <Lexer name="PO files"
+                index="90"
+                filemasks="*.po, *.pot">
+                <Style name="Default"
+                        index="0,11"
+                        fg="236,236,232"
+                        bg="32,32,32"
+                        bold="0"
+                        italics="0"
+                        underlined="0"/>
+                <Style name="Default (inactive)"
+                        index="64,72,75"
+                        fg="200,200,200"/>
+                <Style name="Comment (normal)"
+                        index="1,2"
+                        fg="160,160,160"/>
+                <Style name="Comment (documentation)"
+                        index="3,15"
+                        fg="128,128,255"
+                        bold="1"/>
+                <Style name="Keyword"
+                       index="2"
+                       fg="0,0,160"
+                       bold="1"/>
+                <Keywords>
+                        <Set index="0"
+                            value = "msgstr msgid msgctx"/>
+                </Keywords>
+                <SampleCode value="lexer_po.sample"/>
+                <LanguageAttributes
+                    LineReference="#: "
+                    LineComment="#:. "
+                    LineObsolete="#:, "
+                    LineContext= "#| "
+                    LexerCommentStyles="1,2,3,15,17,18,23,65,66,67,79,81,82,87"
+				/>
+        </Lexer>
+</CodeBlocks_lexer_properties>
