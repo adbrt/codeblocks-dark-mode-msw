@@ -25,3 +25,10 @@ Just download pre-built files from Releases, run with CbLauncher.exe (that way i
 * copy default.conf to .\AppData\codeblocks\default.conf
 * copy contents of .\src\output33_64 to wherever you want your installation of CodeBlocks be placed    
 * run CodeBlocks with CbLauncher.exe (this way it will load dark mode settings from .\AppData\codeblocks\default.conf)
+
+**Notes/issues/todo**
+* Dark mode will be always on in this build, a toggle setting could be added
+* Lexers XML files contain only one variant of color settings, if dark mode were to be switched on/off then a way of switching between different color settings would need to be added
+* TODO: How to get rid of default.conf file and set all necessary colors directly in source code
+* There are various places where colors are set, e.g. caret color is set independently of lexer colors
+* TODO: Add detection of dark mode and automatic settings of appropriate colors
